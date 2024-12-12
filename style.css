@@ -75,6 +75,7 @@
   font-size: 18px;
   text-align: center;
   font-weight: 500;
+  color:  hsl(192, 100%, 9%);
   padding: 0px 20% 10px 20%;
   font-family: "Open Sans", sans-serif;
 }
@@ -119,11 +120,13 @@
   font-size: 80px;
   margin-bottom: 0px;
   font-weight: 600;
+  color:  hsl(192, 100%, 9%);
 }
 
 .folo-div-right>p {
   margin-top: 0px;
   font-size: 18px;
+  color:  hsl(192, 100%, 9%);
   color: gray;
   text-align: center;
 }
@@ -181,6 +184,7 @@
 
 .con-div>h1 {
   font-size: 36px;
+  color:  hsl(192, 100%, 9%);
 }
 
 .con-div>p {
@@ -188,6 +192,7 @@
   text-align: justify;
   word-spacing: -3px;
   font-family: "Open Sans";
+  color:  hsl(192, 100%, 9%);
 }
 
 .img>img {
@@ -232,6 +237,7 @@
 
 .con-foot>h1 {
   font-size: 35px;
+  color:  hsl(192, 100%, 9%);
   margin-top: 0px;
   font-family: "Poppins";
 }
@@ -397,6 +403,9 @@
   cursor: pointer;
 
 }
+.nav-div>button:hover{
+      box-shadow: 1px 1px 5px 0.1px hsl(321, 100%, 78%);;
+}
 
 .con-foot>button:hover {
 
@@ -408,7 +417,7 @@
 
 .icon-footer-social > img:hover {
   /* filter: invert(12%) sepia(100%) saturate(3664%) hue-rotate(220deg) brightness(85%) contrast(108%); */
-  filter: invert(63%) sepia(36%) saturate(4787%) hue-rotate(160deg) brightness(97%) contrast(104%);
+  filter: invert(63%) sepia(36%) saturate(4787%) hue-rotate(160deg) brightness(120%) contrast(104%);
 
 
 }
