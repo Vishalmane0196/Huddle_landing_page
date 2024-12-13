@@ -7,6 +7,7 @@
 }
 body{
   margin: 0px;
+  padding: 0px;
 }
 
 .grid-tem {
@@ -109,8 +110,8 @@ body{
 }
 
 .img-page-div>img {
-  height: 650px;
-
+  height: 90%;
+  width: 75%;
 }
 
 .folo-div {
@@ -443,7 +444,7 @@ body{
   cursor: pointer;
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 382px) {
   .logo>img {
     height: 20px;
   }
@@ -485,7 +486,7 @@ body{
 
   .home-page-div {
     margin-bottom: 0px;
-    height: 80vh;
+    height: 73vh;
   }
 
   .img-page-div {
@@ -583,11 +584,10 @@ body{
   padding: 2px;
 }
 
-  .footerr {
-
-    flex-direction: column-reverse;
-    height: 100vh;
-  }
+.footerr {
+  flex-direction: column-reverse;
+  height: 132vh;
+}
 
   .footer-right {
     width: 100%;
@@ -710,22 +710,54 @@ fill: #00D5FF;
   background-image: url(./images/bg-section-bottom-mobile-2.svg);
   height: 15%;
   background-repeat: no-repeat;
+  filter: contrast(0.99);
 }
 .imagecontaine1_2 {
   background-image: url(./images/bg-section-bottom-mobile-1.svg);
   height: 10%;
   background-repeat: no-repeat;
+  filter: contrast(0.99);
 }
 .imagecontaine3 {
   background-image: url(./images/bg-section-top-mobile-2.svg);
   background-repeat: no-repeat;
   height: 15%;
+  filter: contrast(0.99);
   
 }
 .imagecontaine1 {
   background-image: url(./images/bg-section-top-mobile-1.svg);
   background-repeat: no-repeat;
   height: 16%;
+  filter: contrast(0.99);
+
+}
+.con-foot-img>img {
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+}
+.con-div>p {
+  font-size: 15px;
+  word-spacing: 1px;
+  text-align: center;
+  font-weight: 600;
+  padding: 2px;
+}
+.folo-div-right>h1 {
+  text-align: center;
+  font-size: 58px;
+}.folo-div-right>img {
+  left: 107px;
+  top: 49px;
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  padding-left: 37px;
+  padding-right: 37px;
 }
 
 }
